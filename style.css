@@ -113,12 +113,26 @@
   color: #f00;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
+  position: relative;
+  padding-bottom: 6rem;
   background: black;
   background-size: cover;
   background-position: center 12em;
   background-repeat: no-repeat;
   margin: 0;
+  min-height: 100%;
 }
 body.bg {
   background-image: url(./assets/bg.jpg);
