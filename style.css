@@ -184,6 +184,12 @@ h2,
   color: white;
 }
 
+.stores {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
 .footer {
   position: absolute;
   bottom: 3px;
@@ -200,6 +206,21 @@ a:hover,
 a:focus,
 a:active {
   color: #784e49;
+}
+
+.stores {
+  text-align: center;
+}
+.stores img {
+  height: 3em;
+  margin: 1em;
+}
+
+.stores .googleplay img {
+  height: 4.1em;
+  position: relative;
+  margin: 0;
+  top: -0.5em;
 }
 
 @media screen and (max-width: 800px) {
