@@ -236,4 +236,8 @@ a:active {
   .links {
     padding: 1em 0 0;
   }
+  .stores {
+    position: relative;
+    margin-top: 50px;
+  }
 }
