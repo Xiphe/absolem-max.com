@@ -211,16 +211,37 @@ a:active {
 .stores {
   text-align: center;
 }
+
 .stores img {
-  height: 3em;
-  margin: 1em;
+  height: 2em;
+  margin: 1em 0.25em;
 }
 
-.stores .googleplay img {
-  height: 4.1em;
+.listen {
+  text-align: center;
+}
+.listen .stores a {
+  display: block;
+}
+.listen .stores {
   position: relative;
-  margin: 0;
-  top: -0.5em;
+}
+.listen .stores img {
+  height: auto !important;
+  width: 15em;
+  margin: 1.5em auto;
+  display: block;
+}
+.listen h1 {
+  margin-bottom: 0;
+}
+.listen h2 {
+  margin-top: 0;
+}
+.listen .logo {
+  display: block;
+  float: none;
+  margin: 1rem auto 0;
 }
 
 @media screen and (max-width: 800px) {
